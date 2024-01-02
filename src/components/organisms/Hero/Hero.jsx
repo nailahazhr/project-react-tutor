@@ -1,9 +1,9 @@
 export default function Hero() {
     return (
         <>
-            <div className="hero min-h-full pt-14 pb-14 pl-32 pr-32 bg-slate-100">
+            <div id="home" className="hero min-h-full pt-14 pb-14 pl-32 pr-32 bg-slate-100">
                 <div className="hero-content flex-col lg:flex-row">
-                    <div className="max-w-xl mr-14">
+                    <div className="max-w-xl">
                         <div className="mb-6">
                             <span className="py-6 text-indigo-500 text-xl">Let's </span>
                             <span className="py-6 text-indigo-500 text-xl font-bold"> Begins</span>

@@ -47,7 +47,7 @@ export default function Course() {
 
     return (
         <>
-            <div className="p-32 min-h-full pt-14 pb-14 bg-white">
+            <div id="course" className="p-32 min-h-full pt-14 pb-14 bg-white">
             <p className=" text-indigo-500 text-xl w-full pl-4">WHAT WE GIVE</p>
                 <div className="hero-content pt-0 pb-0">
                     <div className="flex items-center flex-col">

@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="footer p-28 pl-32 pr-32 bg-gray-800 text-neutral-content">
+            <footer id="footer" className="footer p-28 pl-32 pr-32 bg-gray-800 text-neutral-content">
                 <aside className="w-96 text-base mr-20">
                     <img src="src/assets/footer/footerLogo.svg"></img>
                     <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis, justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor dolor augue et lectus. </p>

@@ -1,10 +1,10 @@
 export default function Navbar() {
     const itemNav = [
-        { name: 'Home', link: "/" },
-        { name: 'Course', link: "/course" },
-        { name: 'About Us', link: "/about-us" },
-        { name: 'Article', link: "/article" },
-        { name: 'Contact', link: "/contact" }
+        { name: 'Home', link: "#home" },
+        { name: 'Course', link: "#course" },
+        { name: 'About Us', link: "#about-us" },
+        { name: 'Article', link: "#article" },
+        { name: 'Contact', link: "#contact" }
     ]
     return (
         <>
