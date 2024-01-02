@@ -1,7 +1,7 @@
 export default function Article() {
     return (
         <>
-            <div id="home" className="hero min-h-full pt-10 pb-10 pl-32 pr-32 bg-white">
+            <div id="article" className="hero min-h-full pt-10 pb-10 pl-32 pr-32 bg-white">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="w-1/3 flex-col lg:flex-row">
                         {data1.map((d) => (

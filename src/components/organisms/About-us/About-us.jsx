@@ -20,7 +20,7 @@ export default function AboutUs() {
 
     return (
         <>
-            <div id="home" className="hero min-h-full pl-32 pr-32" style={bggradien}>
+            <div id="about-us" className="hero min-h-full pl-32 pr-32" style={bggradien}>
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="src/assets/about-us/aboutImg.svg" className="max-w-screen-2xl p-10" />
                     <div className="max-w-lg ml-14">
