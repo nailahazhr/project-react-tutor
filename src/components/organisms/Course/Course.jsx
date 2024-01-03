@@ -2,7 +2,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useState } from 'react';
-import Card from '../../molecoles/Course-cards';
+import CourseCard from '../../molecoles/Course-cards';
 
 export default function Course() {
     const [slider, setSlider] = useState(null);
@@ -62,6 +62,8 @@ export default function Course() {
                             <p className="mt-3 text-xl text-slate-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
                         </div>
 
+                        {/* <CourseCard/> */}
+                        
                         {/* SLIDES OF CARDS */}
                         <div className='w-2/3'>
                             {/* <div className="carousel carousel-center max-w-3xl p-4 space-x-4 rounded-box">
