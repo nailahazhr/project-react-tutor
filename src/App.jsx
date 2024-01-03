@@ -10,7 +10,7 @@ import Article from './components/organisms/Article/Article'
 import Footer from './components/organisms/Footer/Footer'
 
 import { Greet } from './components/organisms/Greet'
-import Card from './components/molecoles/Card'
+import Card from './components/molecoles/Course-cards'
 
 import Home from './components/pages/Home'
 import About from './components/pages/About'
@@ -24,27 +24,26 @@ export default function App() {
       <Navbar />
 
       {/* Routing */}
-      <div className="container mx-auto m-10">
+      {/* <div className="container mx-auto m-10">
         <Routes>
           <Route exact path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/contact' element={<Contact />}/>
         </Routes>
-      </div>
+      </div> */}
 
       <Hero />
       <Course />
       <AboutUs />
       <Article />
 
-      <Greet name="Oneil" usia="10" />
-      <Greet name="Yimmi" usia="10" />
+      {/* <Greet name="Oneil" usia="10" />
+      <Greet name="Yimmi" usia="10" /> */}
 
-      <Card title="CARD 1">
-        {/* Generate Icon */}
+      {/* <Card title="CARD 1">
         <h2>INI ICON</h2>
         <p>Lorem Ipsum dolor sir amet</p>
-      </Card>
+      </Card> */}
 
       <Footer />
     </>  
