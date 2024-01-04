@@ -15,6 +15,7 @@ import Card from './components/molecoles/Course-cards'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
+import Product from './components/pages/Product'
 
 export default function App() {
   const [count, setCount] = useState(0)
@@ -24,13 +25,14 @@ export default function App() {
       <Navbar />
 
       {/* Routing */}
-      {/* <div className="container mx-auto m-10">
+      <div className="container mx-auto m-10">
         <Routes>
           <Route exact path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/contact' element={<Contact />}/>
+          <Route path='/product' element={<Product/>}/>
         </Routes>
-      </div> */}
+      </div>
 
       <Hero />
       <Course />

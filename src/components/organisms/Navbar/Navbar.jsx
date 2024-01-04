@@ -6,7 +6,9 @@ export default function Navbar() {
         { name: 'Course', link: "/course" },
         { name: 'About Us', link: "/about" },
         { name: 'Article', link: "/article" },
-        { name: 'Contact', link: "/contact" }
+        { name: 'Contact', link: "/contact" },
+        { name: 'Product', link: "/product" }
+
     ]
     return (
         <>
